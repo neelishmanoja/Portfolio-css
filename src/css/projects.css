@@ -1,0 +1,42 @@
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    background-image: url('/main-bg.webp'); /* Remove '/public' */
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    width: 100%
+    
+   
+}
+.amazon{
+    margin-top: 35px;
+    border-width: 5px;
+    border-color: purple;
+    width: 400px;
+
+}
+.resume{
+    height: 194px;
+    width: 400px;
+    border-width: 5px;
+    border-color: purple;
+    position:absolute;
+    margin-top: 360px;
+}
+
+.amazon-p{
+    font-size: large;
+    color: white;
+    font-weight: 500;
+    position:absolute;
+}
+.resume-p{
+    font-size: large;
+    color: white;
+    font-weight: 500;
+    position:absolute;
+    padding-top: 330px;
+}

@@ -1,0 +1,77 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first{
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+    padding-left: 80px;
+    padding-top: 20px;
+    
+
+}
+
+.second{
+    font-size: 50px;
+    font-weight: 800;
+    background-image: linear-gradient(to right,#8b5cf6, #06b6d4);
+    color: transparent;
+    background-clip: text;
+    padding-left: 80px;
+    padding-top: 20px;
+
+}
+
+.third{
+    color: rgb(208, 203, 203);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-left: 80px;
+    padding-top: 10px;
+
+}
+.forth{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    background-image: linear-gradient(to right,#8b5cf6, #06b6d4);
+    color: transparent;
+    background-clip: text;
+    padding-left: 80px;
+}
+
+.button{
+    text-transform: capitalize; /* Capitalizes the first letter of each word */
+    transition: transform 0.3s ease;
+    
+}
+.button:hover{
+    transform: scale(1.1);
+    background-color: #7e22ce;
+}
+.button-main{
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+}
+
+.button-div{
+    padding-left: 15px;
+    padding-top: 30px;
+    display: flex;
+
+}
+
+.image{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius:50%;
+    margin-top: 96px;
+    margin-left: 800px;
+}
+

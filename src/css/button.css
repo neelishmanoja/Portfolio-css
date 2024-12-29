@@ -1,0 +1,17 @@
+.button{
+    height: 56px;
+    width: 112px;
+    background-color: #6b21a8;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    
+
+
+
+}
